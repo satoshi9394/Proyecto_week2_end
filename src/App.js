@@ -1,11 +1,22 @@
 import React from 'react';
+
+//importar componentes
+import NavBar from './components/NavBar';
+import CardBlocH from './components/CardBlocH'
+import CardBlocV from './components/CardBlocV'
+import Footer from './components/Footer'
+
+import assents from './assents/logo.png'
+
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <NavBar/>
-      <CardBlocH
+      <NavBar  className="container s"
+      imgUrl="./assents/logo.png"
+      />
+{/*       <CardBlocH
       title='Avance de la inteligencia artificial' 
       date=''
       autor=''
@@ -91,7 +102,7 @@ function App() {
           />
         </div>
       </div>
-      <Footer/>
+      <Footer/> */}
     </div>
 
   );
