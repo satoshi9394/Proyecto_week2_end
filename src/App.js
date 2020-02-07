@@ -2,9 +2,10 @@ import React from 'react';
 
 //importar componentes
 import NavBar from './components/NavBar';
-import CardBloc from './components/CardBloc'
-import ColumnSection from './components/ColumnSection'
-import Footer from './components/Footer'
+import CardBloc from './components/CardBloc';
+import ColumnSection from './components/ColumnSection';
+import Footer from './components/Footer';
+
 
 
 
@@ -13,8 +14,7 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <NavBar  className="container"
-      />
+      <NavBar  className="container"/>
      <CardBloc bloc='bloc'
       title='¡Esta IA juega al ESCONDITE demasiado bien!' 
       date='20/12/2019'
@@ -106,8 +106,8 @@ function App() {
       autor1="Jaime Altozano"
       link1='https://www.youtube.com/watch?v=5iadbCIuc8Q&t=1611s'
       //Post2
-      img2='https://i.ytimg.com/an_webp/4GkdTTXdXsk/mqdefault_6s.webp?du=
-      3000&sqp=CKb-8_EF&rs=AOn4CLBW2bCXrY6WCNe_bDpxhnfq1Qj_NQ'
+      img2='https://i.ytimg.com/an_webp/4GkdTTXdXsk/mqdefault_6s.webp?du
+      =3000&sqp=CJid9fEF&rs=AOn4CLA7Ii5vmkZGq0EBI2wTlxnnPKWy8g'
       title2='LOS MISERABLES: la Mejor Fuga de BACH || Jaime Altozano'
       p2='En este vídeo os hablo de mi fuga favorita, y os explico 
       por qué lo es mientras hablamos de Los Miserables
@@ -117,7 +117,7 @@ function App() {
       link2='https://www.youtube.com/watch?v=4GkdTTXdXsk'
       //Post3
       img3='https://i.ytimg.com/an_webp/Mr8ICnGutYM/mqdefault_6s.webp?du
-      =3000&sqp=CNbZ8_EF&rs=AOn4CLBkCaYdWglK3D3L0GrdZlI4AujYhA'
+      =3000&sqp=CJ-59fEF&rs=AOn4CLCE3zVXEiLBbRoJ_F0po20glAtahw'
       title3='De Pokemon a Bach. Una historia de VOCES. || Jaime Altozano'
       p3='Por qué Bach no usaba twitter? La respuesta está un su música, o en las relaciones 
       de su música con Pokemon, los Beatles y la Oreja de Van Gogh.'
