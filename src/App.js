@@ -1,25 +1,99 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <NavBar/>
+      <CardBlocH
+      title='Avance de la inteligencia artificial' 
+      date=''
+      autor=''
+      imgUrl=''
+      p="La tecnologia avanza a pasos agigantados de enorme candidad
+      de informacion"
+      categoria=''
+      />
+      <div className='container'>
+        <h1>categoria1</h1>
+        <div className="col s4">
+          <CardBlocV
+          imgUrl=''
+          title=''
+          p=''
+          date=''
+          />
+        </div>
+        <div className="col s4">
+          <CardBlocV
+          imgUrl=''
+          title=''
+          p=''
+          date=''          
+          />
+        </div>
+        <div className="col s4">
+          <CardBlocV
+          imgUrl=''
+          title=''
+          p=''
+          date=''          
+          />
+        </div>
+        <h1>categoria2</h1>
+        <div className="col s4">
+          <CardBlocV
+          imgUrl=''
+          title=''
+          p=''
+          date=''
+          />
+        </div>
+        <div className="col s4">
+          <CardBlocV
+          imgUrl=''
+          title=''
+          p=''
+          date=''          
+          />
+        </div>
+        <div className="col s4">
+          <CardBlocV
+          imgUrl=''
+          title=''
+          p=''
+          date=''          
+          />
+        </div>
+        <h1>categoria3</h1>
+        <div className="col s4">
+          <CardBlocV
+          imgUrl=''
+          title=''
+          p=''
+          date=''
+          />
+        </div>
+        <div className="col s4">
+          <CardBlocV
+          imgUrl=''
+          title=''
+          p=''
+          date=''          
+          />
+        </div>
+        <div className="col s4">
+          <CardBlocV
+          imgUrl=''
+          title=''
+          p=''
+          date=''          
+          />
+        </div>
+      </div>
+      <Footer/>
     </div>
+
   );
 }
 
