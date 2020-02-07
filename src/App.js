@@ -29,6 +29,7 @@ function App() {
       multiagente puede algún día producir un comportamiento extremadamente complejo ycomportamiento inteligente"
       categoria='Inteligencia Artificial'
       orientacion='card horizontal teal darken-1'
+      orientacion2="card-stacked"
       link='https://www.youtube.com/watch?v=5SkQuT3kZOc&t=3s'
       />
       <ColumnSection

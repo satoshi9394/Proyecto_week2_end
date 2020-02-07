@@ -8,12 +8,16 @@ function ColumnSetion(props) {
     return(
         <div className='container'>
             <div className="row">
-            <h4 className="center-align indigo-text text-darken-4">
-                {props.categoria}
-            </h4>
+                <div className="col s12" id='titulo-col'>
+                    <h4 className="center-align indigo-text text-darken-4">
+                    {props.categoria}
+                    </h4>
+                </div>
                 <div className="columnas col s4" >
                     <CardBloc
+                    eliminar='eliminar'
                     orientacion="card  teal lighten-1"
+                    orientacion2="card"
                     imgUrl={props.img1}
                     title={props.title1}
                     p={props.p1}
@@ -26,6 +30,7 @@ function ColumnSetion(props) {
                 <div className="col s4 columnas">
                     <CardBloc
                     orientacion="card teal lighten-1"
+                    orientacion2="card"
                     imgUrl={props.img2}
                     title={props.title2}
                     p={props.p2}
@@ -38,6 +43,7 @@ function ColumnSetion(props) {
                 <div className="col s4 columnas">
                     <CardBloc
                     orientacion="card teal lighten-1"
+                    orientacion2="card"
                     imgUrl={props.img3}
                     title={props.title3}
                     p={props.p3}

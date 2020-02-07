@@ -1,12 +1,15 @@
 
-
+#titulo-col{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
 .row img{
     height: 50vh;
 }
 
 
-.columnas .card-stacked{
-    height: 25em;
+.columnas .card{
+    height: 110%;
 }
 
 #eliminar{
@@ -17,3 +20,8 @@
     margin-bottom: 1.5rem;
 }
 
+#footer-col{
+    text-align: end;
+    align-items: end;
+    align-self: end;
+}
