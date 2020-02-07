@@ -1,5 +1,6 @@
 import React from 'react';
 
+
 //importar componentes
 import NavBar from './components/NavBar';
 import CardBloc from './components/CardBloc';
@@ -15,7 +16,7 @@ function App() {
   return (
     <div className="App">
       <NavBar  className="container"/>
-     <CardBloc bloc='bloc'
+      <CardBloc bloc='bloc'
       title='¡Esta IA juega al ESCONDITE demasiado bien!' 
       date='20/12/2019'
       autor='Dot CSV'
