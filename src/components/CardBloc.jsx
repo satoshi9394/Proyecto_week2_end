@@ -29,7 +29,7 @@ function CardBloc(props) {
                     <div class="col s12" id="footer-col">
                         <a href={props.link} target="_blank">
                             <button class="btn waves-effect waves-light" type="submit" name="action">Ver mas
-                                <i class="material-icons right">send</i>
+                                <i class="material-icons right">video_library</i>
                             </button>                            
                         </a>
                     </div>
