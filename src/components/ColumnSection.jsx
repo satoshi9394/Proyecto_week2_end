@@ -17,7 +17,7 @@ function ColumnSetion(props) {
                     <CardBloc
                     eliminar='eliminar'
                     orientacion="card  teal lighten-1"
-                    orientacion2="card"
+                    orientacion2="card teal lighten-1"
                     imgUrl={props.img1}
                     title={props.title1}
                     p={props.p1}
@@ -30,7 +30,7 @@ function ColumnSetion(props) {
                 <div className="col s4 columnas">
                     <CardBloc
                     orientacion="card teal lighten-1"
-                    orientacion2="card"
+                    orientacion2="card teal lighten-1"
                     imgUrl={props.img2}
                     title={props.title2}
                     p={props.p2}
@@ -43,7 +43,7 @@ function ColumnSetion(props) {
                 <div className="col s4 columnas">
                     <CardBloc
                     orientacion="card teal lighten-1"
-                    orientacion2="card"
+                    orientacion2="card teal lighten-1"
                     imgUrl={props.img3}
                     title={props.title3}
                     p={props.p3}

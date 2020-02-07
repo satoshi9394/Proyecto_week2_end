@@ -8,9 +8,7 @@
 }
 
 
-.columnas .card{
-    height: 110%;
-}
+
 
 #eliminar{
     display: none;
@@ -22,6 +20,4 @@
 
 #footer-col{
     text-align: end;
-    align-items: end;
-    align-self: end;
 }

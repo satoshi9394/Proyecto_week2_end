@@ -25,7 +25,7 @@ function CardBloc(props) {
                                 </h6>
                             </div>
                             <div className="col s12" id={props.eliminar}>
-                                <h5 className="left-align deep-orange-text text-darken-3" >
+                                <h5 className="right-align deep-orange-text text-darken-3" >
                                     {props.categoria}
                                 </h5>
                             </div>
