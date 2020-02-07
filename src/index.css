@@ -27,7 +27,11 @@ code {
 }
 
 #bloc img{
-  height: 70vh;
+  height: 80vh;
+}
+
+#bloc .horizontal{
+  height: 70%;
 }
 
 .col img{
@@ -47,4 +51,14 @@ p {
 
 h5 {
   margin-left: 0.5em;
+}
+
+.columnas .card-stacked{
+  height: 60vh;
+}
+
+#logo{
+  margin: 5px;
+  width: 20%;
+  height: 20%;
 }

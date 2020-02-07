@@ -14,7 +14,6 @@ function App() {
   return (
     <div className="App">
       <NavBar  className="container"
-      imgUrl=""
       />
      <CardBloc bloc='bloc'
       title='¡Esta IA juega al ESCONDITE demasiado bien!' 

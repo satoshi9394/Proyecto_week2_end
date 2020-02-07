@@ -1,11 +1,12 @@
 import React from 'react'
+import Logo from '../assents/logo.png'
 
 function NavBar(props) {
     return(
         <nav>
             <div class="nav-wrapper light-blue darken-4">
                 <a href="#" class="brand-logo right">
-                    <img src={props.imgUrl} alt="Logo"/>
+                    <img src={Logo} alt="Logo" id="logo"/>
                 </a>
                 <ul id="nav-mobile" class="left hide-on-med-and-down">
                     <li><a href="#">Servicios</a></li>

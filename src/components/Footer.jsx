@@ -7,7 +7,7 @@ function Footer() {
         <footer class="page-footer indigo darken-3">
             <div class="row left-align">
                 <div class="col s12">
-                    <button class="btn waves-effect waves-light" type="submit" name="action">Enviar
+                    <button class="btn waves-effect waves-light" type="submit" name="action">Contacto
                         <i class="material-icons right">send</i>
                     </button>
                 </div>
