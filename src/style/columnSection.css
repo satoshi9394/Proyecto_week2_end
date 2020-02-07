@@ -1,0 +1,19 @@
+
+
+.row img{
+    height: 50vh;
+}
+
+
+.columnas .card-stacked{
+    height: 25em;
+}
+
+#eliminar{
+    display: none;
+}
+
+#end{
+    margin-bottom: 1.5rem;
+}
+

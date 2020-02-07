@@ -125,8 +125,6 @@ function App() {
       autor3="Jaime Altozano"
       link3='https://www.youtube.com/watch?v=Mr8ICnGutYM'
       />
-      
-
       <Footer/>
     </div>
 

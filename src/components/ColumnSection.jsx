@@ -1,5 +1,7 @@
 import React from 'react'
 
+import '../style/columnSection.css';
+
 import CardBloc from './CardBloc'
 
 function ColumnSetion(props) {
@@ -11,7 +13,7 @@ function ColumnSetion(props) {
             </h4>
                 <div className="columnas col s4" >
                     <CardBloc
-                    orientacion="card teal lighten-1"
+                    orientacion="card  teal lighten-1"
                     imgUrl={props.img1}
                     title={props.title1}
                     p={props.p1}

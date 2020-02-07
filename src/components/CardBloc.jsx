@@ -1,4 +1,5 @@
 import React from 'react'
+import '../style/cardBloc.css';
 
 function CardBloc(props) {
     return(
@@ -14,18 +15,18 @@ function CardBloc(props) {
                         <div className='col s12'>
                             <h6 className="right-align grey-text text-lighten-1">Fecha {props.date}</h6>
                         </div>
-                        <div className='col s12'>
+                        <div className='col s12' id='end'>
                             <h6 className="autor right-align grey-text text-darken-3">
                                 Canal: {props.autor}
                             </h6>
                         </div>
-                        <div className="col s12">
+                        <div className="col s12" id="eliminar">
                             <h5 className="left-align deep-orange-text text-darken-3" >
                                 {props.categoria}
                             </h5>
                         </div>
                     </div>
-                    <div class="card-action valign-wrapper">
+                    <div class="col s12" id="footer-col">
                         <a href={props.link} target="_blank">
                             <button class="btn waves-effect waves-light" type="submit" name="action">Ver mas
                                 <i class="material-icons right">send</i>
