@@ -1,50 +1,19 @@
-import React, { Component } from 'react'
-import ReactDOM from 'react-dom';
+import React from 'react'
+
 
 import '../style/footer.css';
 
-class Modal extends Component{
-    render() {
-        return ReactDOM.createPortal(
-            <div className='modal' id="mimodal">
-                <section className='modal-content'>
-                    <h1>
-                        Esto es un modal
-                    </h1>
-                    <p>
-                        Y muestra mas informacion al usuario
-                    </p>
-                    <button onClick={this.props.onClose} >
-                        Cerrar modal
-                    </button>
-                </section>
-            </div>,
-            document.getElementById('modal')
-        )
-    }
-}
 
 
-class Footer extends Component{
-    state= { isModalOpen: false }
-
-    _openModal = () => this.setState({ isModalOpen: true })
-
-    _closeModal = () => this.setState({ isModalOpen: false })
-
- render() {
+const FooterBar = () => {
     return(
         <footer class="page-footer indigo darken-3">
             <div class="row left-align">
                 <div class="col s12">
-                    <button class="btn waves-effect waves-light"
-                    onClick={this._openModal}>
+                    <button class="btn waves-effect waves-light">
                         Contacto
                         <i class="material-icons right">send</i>
                     </button>
-                    {this.state.isModalOpen &&
-                        <Modal onClose={this._closeModal} />
-                    }
                 </div>
                 <form className="col s12">
                     <div className="row">
@@ -79,8 +48,10 @@ class Footer extends Component{
           </div>
         </footer>
     )
-    }
 }
+    
 
 
-export default Footer
+
+
+export default FooterBar

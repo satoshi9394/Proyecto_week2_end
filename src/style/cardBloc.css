@@ -1,23 +1,6 @@
 
 .horizontal img{
-    height: 90vh;
+    height: 50vh;
+    width: 500px;
 }
 
-#bloc{
-    width: 95vw;
-    margin: 2%;
-}
-
-p {
-    text-align: justify;
-  }
-
-h5 {
-    margin-left: 0.5em;
-}
-
-#footer-col{
-    display: block;
-    align-self: center;
-    margin-bottom: 20px;
-}
