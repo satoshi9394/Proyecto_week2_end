@@ -1,23 +1,23 @@
 import React from 'react'
-import '../style/cardBloc.css';
+import '../style/card.css';
 
 const Card = (props) =>{
     return (
         <div>
         <div className={props.info.dimension}>
-            <div class={props.info.orientacion}>
-                <div class="card-image">
-                    <img src={props.info.imgUrl}></img>
+            <div className={props.info.orientacion}>
+                <div className="card-image" >
+                    <img src={props.info.imgUrl} id={props.info.id}></img>
                 </div>
-                <div class="card-content">
-                    <h5>{props.info.title}</h5>
+                <div className="card-content">
+                    <h5 className='white-text'>{props.info.title}</h5>
                     <p>{props.info.p}</p>
-                    <p>{props.info.autor}</p>
-                    <p>{props.info.date}</p>
-                    <p>{props.info.categoria}</p>
-                    <a href={props.link} target="_blank">
-                        <button class="btn waves-effect waves-light" type="submit" name="action">Ver mas
-                            <i class="material-icons right">video_library</i>
+                    <p className='right-align grey-text text-darken-2'><b>{props.info.autor}</b></p>
+                    <p className='right-align grey-text text-darken-2'><b>{props.info.date}</b></p>
+                    <h6 className='right-align blue-text text-darken-4'><b>{props.info.categoria}</b></h6>
+                    <a href={props.info.link} target="_blank">
+                        <button className="btn waves-effect waves-light" type="submit" name="action">Ver mas
+                            <i className="material-icons right">video_library</i>
                         </button>                            
                     </a>
                 </div>
